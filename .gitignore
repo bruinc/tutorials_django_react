@@ -1,1 +1,5 @@
 django_tutorial_env/
+mysite/mysite/__pycache__/
+mysite/polls/__pycache__/
+mysite/polls/migrations/__pycache__/
+
