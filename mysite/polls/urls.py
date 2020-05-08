@@ -2,6 +2,8 @@ from django.urls import path
 
 from . import views
 
+app_name = 'polls' # adds namespace to our URLconf (e.g. so we can have a 'detail' view in another app of the same project)
+
 urlpatterns = [
     # ex: /polls/
     path('', views.index, name='index'),
